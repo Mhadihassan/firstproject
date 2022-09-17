@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A simple portfolio template." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- TITLE -->
+    <title>Mahadi</title>
+  
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet"/>
+    
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="./vendors/css/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/css/uikit.min.css"/>
+    <link rel="stylesheet" href="./resources/css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel="stylesheet" href="./resources/css/query.css" />
+
+    <meta name="theme-color" content="#ff2b4a" />
+  </head>
+  <body>
+    
+    <!-- START HERO SECTION -->
+    <header id="hero">
+      <nav
+        class="nav clearfix"
+        data-uk-sticky="start: 200; animation: uk-animation-slide-top">
+        <div class="container">
+          <div class="logo">
+            <a href=""> <img src="./resources/img/logo.png" alt="Paul" /> </a>
+          </div>
+          <div class="menu">
+            <a href="javascript:void()" onclick="openMenu()">
+              <ion-icon name="menu-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="menu-container" id="menu-container" onclick="closeMenu()">
+        <div class="container">
+          <div class="close-btn">
+            <a href=""><ion-icon name="close-circle-outline"></ion-icon></a>
+          </div>
+          <ul class="menu-item">
+            <li><a onclick="closeMenu()" href="#hero">home</a></li>
+            <li><a onclick="closeMenu()" href="#about">about</a></li>
+            <li><a onclick="closeMenu()" href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-content">
+        <h1 class="ah-headline">
+          <span>Hello</span>
+          <br>
+          <span>I Am</span>
+          <span class="ah-words-wrapper">
+              <b class="is-visible">Mahadi Hassan</b>
+              <b>A Web Developer</b>
+              <b>A Web Designer</b>
+          </span>
+       </h1>
+      </div>
+      <div class="next-section">
+        <a href="#about">
+          <ion-icon name="arrow-down-circle-outline"></ion-icon>
+        </a>
+      </div>
+    </header> 
+    <!-- END HERO SECTION -->
+
+    <!-- START ABOUT SECTION -->
+    <section id="about">
+      <div class="container">
+        <div class="ab-grid">
+          <div class="ab-grid-item">
+            <img src="./resources/img/About image.jpg" alt="Paul" />
+          </div>
+          <div class="ab-grid-item">
+            <h2><b>About Me</b></h2>
+            <p>
+                Nowadays everyone needs a website, be it a portfolio website or a business website.
+                The options of website for promoting any online based activities are immense. <br /><br />
+              
+                Hello, I'm Mahadi a certified web developer. 
+                I serve my effective skills for your website worldwide.
+                As a WordPress developer, I have 5 years of work experience. 
+                I am serving any type of website, like a blog site, or e-commerce store, 
+                which is responsive, user-friendly, and eye-catching also.
+                If you have any kind of questions feel free to contact me.
+            </p>
+            <div class="cta-btn">
+              <a href="" class="btn btn-full">hire me!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+    <!-- START PROCESS SECTION -->
+    <section id="process">
+      <div class="container">
+        <div class="section-title">
+          <h2><b>My skills</b></h2>
+          <p><b>You Can Make Your Website With Those Tools.Choise Is Yours.</b></p>
+        </div>
+        <div class="process-grid">
+          <div class="process-grid-item">
+            <a href="http://www.html5.com/"><ion-icon name="logo-html5"></ion-icon></a>
+            <h4>HTML5</h4>
+          </div>
+          <div class="process-grid-item">
+            <a href="https://web.dev/learn/css/"><ion-icon name="logo-css3"></ion-icon></a>
+            <h4>CSS3</h4>
+          </div>
+          <div class="process-grid-item">
+            <a href="https://www.javascript.com/"><ion-icon name="logo-nodejs"></ion-icon></a>
+            <h4>jAVASCRIPT</h4>
+          </div>
+          <div class="process-grid-item">
+            <a href="https://wordpress.com/"><ion-icon name="logo-wordpress"></ion-icon></a>
+            <h4>WORDPRESS</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PROCESS SECTION -->
+    <!-- START EXP SECTION -->
+    <section id="exp">
+      <div class="container">
+        <div class="exp-grid">
+          <div class="exp-grid-item">
+            <h2>Work Experience</h2>
+            <div class="job">
+             <h4><b>Wordpress Developer</b></h4>
+              <span>OCT 2013 - june 2014</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </div>
+            <hr />
+            <div class="job">
+             <h4><b>wordpress Designer</b></h4>
+              <span>OCT 2013 - june 2014</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </div>
+          </div>
+          <div class="exp-grid-item">
+            <h2>Education</h2>
+            <div class="job">
+             <h4><b>Zhezianggongshang Univarsity</b></h4>
+              <span>SEP 2018 - APR 2022</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </div>
+            <hr />
+            <div class="job">
+             <h4><b>Bsc In CSE</b></h4>
+              <span>OCT 2013 - june 2014</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END EXP SECTION -->
+    <!-- END WORK SECTION -->
+    <section id="work">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Latest Works</h2>
+          <p><p><b>Here Are Some Of My previous Work.</b></p></p>
+        </div>
+        <div class="work-filter">
+          <button type="button" data-filter="all">all</button>
+          <button type="button" data-filter=".web-design">web design</button>
+          <button type="button" data-filter=".web-development">
+            web development
+          </button>
+          <button type="button" data-filter=".wordpress">wordpress</button>
+        </div>
+        <div class="work-grid" data-uk-lightbox="animation: scale">
+          <div class="work-grid-item mix web-design">
+            <a href="./resources/img/lwp1.jpg" data-caption="Web Design">
+              <img src="./resources/img/lwp1.jpg" alt="Work" />
+            </a>
+          </div>
+          <div class="work-grid-item mix web-design">
+            <a href="./resources/img/lwp2.jpg">
+              <img src="./resources/img/lwp2.jpg" alt="Work" />
+            </a>
+          </div>
+          <div class="work-grid-item mix wordpress">
+            <a href="./resources/img/lwp3.jpg">
+              <img src="./resources/img/lwp3.jpg" alt="Work" />
+            </a>
+          </div>
+          <div class="work-grid-item mix wordpress">
+            <a href="./resources/img/lwp4.jpg">
+              <img src="./resources/img/lwp4.jpg" alt="Work" />
+            </a>
+          </div>
+          <div class="work-grid-item mix web-development">
+            <a href="./resources/img/lw5.jpg">
+              <img src="./resources/img/lw5.jpg" alt="Work" />
+            </a>
+          </div>
+          <div class="work-grid-item mix web-design">
+            <a href="./resources/img/lwp6.jpg">
+              <img src="./resources/img/lwp6.jpg" alt="Work" />
+            </a>
+          </div>
+          <div class="work-grid-item mix wordpress">
+            <a href="./resources/img/lwp7.jpg">
+              <img src="./resources/img/lwp7.jpg" alt="Work" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END WORK SECTION -->
+    <!-- START TESTIMONIAL SECTION -->
+    <section id="tm">
+      <div class="container">
+        <div class="tm-grid">
+          <div class="tm-grid-item">
+            <img src="./resources/img/quote.png" alt="Quote" class="quote" />
+            <p>
+             As the web development industry has become so huge in the last two decades,
+             it has brought the attention of many people who are constantly sharing their own opinion.
+             Whether it is an enthusiastic quote that will show you one of the core uses of web application 
+             development or a funny joke that demonstrates common errors or occurrences. All kinds of quotes are there. 
+             That’s why let’s see some of the inspirational website development quotes and move to the funny ones.
+            </p>
+            <img
+              src="./resources/img/signature.png"
+              alt="Signature"
+              class="signature"
+            />
+            <h4>Mahadi Hassan</h4>
+            <span><b>Web Designer And Developer</b></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- START CONTACT SECTION -->
+    <section id="contact">
+      <div class="container">
+        <div class="ct-grid">
+          <div class="ct-grid-item">
+            <h2>Leave a message</h2>
+            <form action="./index.php" method="POST">
+              <input type="text" name="name" placeholder="Name *" required />
+              <input type="email" name="email" placeholder="Email *" required />
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject *"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Message *"
+                required
+              ></textarea>
+              <div class="sub-btn">
+                <input type="submit" class="btn btn-full" value="Hire Me!" />
+              </div>
+            </form>
+          </div>
+          <div class="ct-grid-item nested-ct-grid">
+            <div class="nested-ct-grid-item">
+              <h2>Name</h2>
+              <p>Mahadi Hassan</p>
+            </div>
+            <div class="nested-ct-grid-item">
+              <h2>Address</h2>
+              <p>
+                21/A1 J-Block,8-Road Estern Housing,Mirpur-12,Dhaka-1216,Bangladse</p>
+            </div>
+            <div class="nested-ct-grid-item">
+              <h2>Contact</h2>
+              <p>mail-mahadi10104@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <footer id="footer">
+      <div class="container">
+        <ul class="social-list">
+            <li><a href="https://www.facebook.com/profile.php?id=100017680365285"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/in/mahadi-hassan-674869226/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/_mahadi_hasan_joy_/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <p class="copyright">Copyright: Mahadi Hassan | All Rights Reserved.</p>
+        <div class="totop">
+          <a href="#" data-uk-totop data-uk-scroll></a>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- JS FILES -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./vendors/js/modernizr.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./vendors/js/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/js/uikit-icons.min.js"></script>
+    <script src="./resources/js/jquery.animatedheadline.min.js"></script>
+    <script src="./vendors/js/particles.min.js"></script>
+    <script src="./vendors/js/app.js"></script>
+    <script src="./resources/js/main.js"></script>
+  </body>
+</html>
